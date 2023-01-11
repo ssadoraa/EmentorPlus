@@ -1,0 +1,9 @@
+CREATE DATABASE ementorplus;
+
+CREATE TABLE ementorplus.pessoa (CPF VARCHAR(20) PRIMARY KEY, Nome VARCHAR(100), NomeMae VARCHAR(100), NomePai VARCHAR(100), DataAniversario VARCHAR(20), Telefone VARCHAR(20));
+
+CREATE TABLE ementorplus.aluno (CPF VARCHAR(20) PRIMARY KEY, Matricula VARCHAR(20), AnoEscolar VARCHAR(20), Turma VARCHAR(20));
+
+CREATE TABLE ementorplus.professor (CPF VARCHAR(20) PRIMARY KEY, Disciplina VARCHAR(100), Matricula VARCHAR(20), DataAdmissao VARCHAR(20), Salario DECIMAL(26,14));
+
+CREATE TABLE ementorplus.usuario (Nome VARCHAR(100), Senha VARCHAR(100), TipoAcesso VARCHAR(20));
