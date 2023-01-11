@@ -1,4 +1,5 @@
 # EmentorPlus
+---
  Gerenciador de alunos e professores
  Projeto desenvolvido na disciplina de Programação Orientada à Objetos, em Java e usando o Netbeans. 
  A ideia principal era poder cadastrar, editar e listar alunos e professores.Para isso, foram utilizados jFrames para cada tipo de tela e o uso do MySQL Server para guardar os dados e poderem ser recuperados na hora de listar e/ou editar.
