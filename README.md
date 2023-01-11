@@ -1,4 +1,4 @@
-# EmentorPlus
+## EmentorPlus
 ---
  Gerenciador de alunos e professores
  Projeto desenvolvido na disciplina de Programação Orientada à Objetos, em Java e usando o Netbeans. 
